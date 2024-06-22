@@ -1,9 +1,14 @@
+$regular: "/assets/fonts/JetBrainsMono-Thin.woff2";
+$medium: "/assets/fonts/JetBrainsMono-Thin.woff2";
+$bold: "/assets/fonts/JetBrainsMono-SemiBold.woff2";
+$black: "/assets/fonts/JetBrainsMono-Bold.woff2";
+
 @font-face {
   font-display: swap;
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/JetBrainsMono-Thin.woff2") format("woff2");
+  src: url(#{$regular}) format("woff2");
 }
 
 @font-face {
@@ -11,7 +16,7 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 500;
-  src: url("./assets/fonts/JetBrainsMono-Medium.woff2") format("woff2");
+  src: url(#{$medium}) format("woff2");
 }
 
 @font-face {
@@ -19,7 +24,7 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("/assets/fonts/JetBrainsMono-SemiBold.woff2") format("woff2");
+  src: url(#{$bold}) format("woff2");
 }
 
 @font-face {
@@ -27,5 +32,5 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 800;
-  src: url("/assets/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  src: url(#{$black}) format("woff2");
 }
